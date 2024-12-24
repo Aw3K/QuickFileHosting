@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>remicon.png</file>
+        <file>downloadicon.png</file>
+    </qresource>
+</RCC>

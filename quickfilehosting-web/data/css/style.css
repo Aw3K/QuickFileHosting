@@ -1,0 +1,281 @@
+body
+{ 
+	padding: 0px;
+	margin: 0px;
+	background-color: #191d21;
+	min-width:330px;
+    width: auto !important;
+    width: 330px;
+}
+.info {
+	max-width: 1000px;
+	min-height: 40px;
+	margin: auto;
+	border: 4px solid green;
+	border-radius: 10px;
+	line-height: 40px;
+}
+.container {
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 20px auto;
+	border: 4px solid green;
+	border-radius: 10px;
+	position: relative;
+}
+p {
+	display: inline-table;
+	margin: 0px 5px 0px 5px;
+	color: green;
+	font-size: 110%;
+	font-family: Impact;
+	transition: 1s all;
+}
+p.button:hover {
+	cursor: pointer;
+	text-shadow: 0 0 25px green;
+}
+header {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+}
+
+.TEXTAREAASC {
+	resize: none;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+@media screen and (min-width: 1200px) {
+	.list {
+		margin: 0px;
+		position: absolute;
+		padding: 0px;
+		transition: 1s opacity;
+		top: -5px;
+		right: -100px;
+		opacity: 0;
+		z-index: -99999999;
+		width: 250px;
+	}
+}
+@media screen and (min-width: 600px) {
+	.logoimage {
+		width: 600px;
+		height: 150px;
+		margin: auto;
+	}
+	.TEXTAREAASC {
+		width: 612px;
+	}
+	.loggedin {
+		max-width: 700px;
+		width: auto;
+		position: absolute;
+		min-height: 25px;
+		height: 25px;
+		bottom: -33px;
+		border: 4px solid green;
+		border-radius: 0px 0px 10px 10px;
+		left: 0%;
+		right: 0%;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 25px;
+	}
+	.bottom {
+		max-width: 1000px;
+		margin: 35px auto;
+		color: green;
+	}
+}
+@media screen and (max-width: 600px) {
+	.logoimage {
+		width: 400px;
+		height: 100px;
+		margin: 0px auto 0px -50px;
+	}
+	.TEXTAREAASC {
+		width: 300px;
+	}
+	.loggedin {
+		max-width: 700px;
+		width: auto;
+		position: absolute;
+		min-height: 40px;
+		height: 40px;
+		bottom: -48px;
+		border: 4px solid green;
+		border-radius: 0px 0px 10px 10px;
+		left: 0%;
+		right: 0%;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 20px;
+	}
+	.bottom {
+		max-width: 1000px;
+		margin: 55px auto;
+		color: green;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.list {
+		margin: 0px;
+		position: absolute;
+		padding: 0px;
+		transition: 1s opacity;
+		top: 40px;
+		right: -4px;
+		opacity: 0;
+		z-index: -99999999;
+		width: 250px;
+	}
+}
+.list > li {
+	border: 4px solid green;
+	padding: 0px;
+	display: table;
+	margin: auto 0px auto auto;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	background-color: #191d21;
+	cursor: pointer;
+}
+.list > li > a {
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+.progress 
+{
+  display: none; 
+  position: relative; 
+  max-width: 400px;
+  border: 2px solid green; 
+  padding: 1px; 
+  margin: 5px;
+  border-radius: 5px;
+  color: green;
+  font-weight: bold;
+}
+.bar 
+{ 
+  background-color: #B4F5B4; 
+  width:0%;
+  height:20px;
+  border-radius: 3px;
+}
+.percent 
+{ 
+  position:absolute; 
+  display:inline-block; 
+  top:3px; 
+  left:48%; 
+}
+.upload_file {
+	position: absolute;
+	top: 0px;
+	left: 0%;
+	right: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	opacity: 0;
+}
+.fakeupload {
+	position: relative;
+	z-index: 0;
+}
+#fakein {
+	border-radius: 5px;
+	width: 250px;
+}
+#upload_file {
+	width: 250px;
+}
+.selected {
+	border: 2px solid green;
+	border-radius: 5px;
+	color: green;
+	font-weight: bold;
+	max-width: 800px;
+	margin: 5px;
+}
+.lang {
+	margin: 0px 10px 0px auto;
+	float: right;
+}
+.text {
+	color: green;
+}
+.text > a {
+	color: green;
+}
+#submitfile {
+	border-radius: 10px;
+	border: 2px solid green;
+	color: green;
+	font-weight: bold;
+	font-size: 110%;
+	transition: 1s all;
+	background-color: rgba(0,0,0,.1);
+}
+#submitfile:hover {
+	cursor: pointer;
+	text-shadow: 0 0 25px green;
+}
+#submitfile > a {
+	color: green;
+}
+.bottom > a {
+	color: green;
+	cursor: pointer;
+}
+.button > a {
+	color: green;
+}
+td > img {
+	width: 15px;
+	height: auto;
+}
+
+#showFile {
+	width: 90%;
+	height: 17px;
+	border: 2px solid green;
+	border-radius: 5px;
+	line-height: 17px;
+	text-align: center;
+	margin: 20px auto auto auto;
+}
+#viewConatiner {
+	display: none;
+	width: auto;
+	height: auto;
+	margin: 5px;
+	border: 1px solid green;
+}
+.viewTextButton {
+	width: 100%;
+	height: 17px;
+	border-bottom: 2px solid green;
+	color: green;
+	font-weight: bold;
+	cursor: pointer;
+}
+.viewTEXTstyle {
+	color: red;
+	margin: 10px;
+	border: 1px solid green;
+	border-radius: 3px;
+	background-color: white;
+	font-weight: bold;
+	font-family: Impact;
+}
+pre {
+  white-space: pre-wrap;
+  overflow-x: auto;
+}

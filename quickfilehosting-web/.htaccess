@@ -1,0 +1,5 @@
+ErrorDocument 404 /error.php
+php_value upload_max_filesize 513M
+php_value post_max_size 513M
+
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1

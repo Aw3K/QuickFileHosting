@@ -1,0 +1,81 @@
+.logsignt {
+	border: 2px solid green;
+	border-radius: 5px;
+}
+.logsign {
+	border: 2px solid green;
+	border-radius: 5px;
+	font-size: 125%;
+	color: green;
+	font-family: Impact;
+	transition: 1s all;
+	background-color: rgba(0,0,0,.1);
+}
+.logsign:hover {
+	cursor: pointer;
+	text-shadow: 0 0 25px green;
+}
+.filelist {
+	border: 2px solid green;
+	margin: 10px;
+	border-radius: 5px;
+}
+.file {
+	border: 1px solid green;
+	margin: 10px;
+	height: auto;
+	border-radius: 5px;
+}
+.fileintel {
+	width: 100%;
+	min-height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid green;
+	text-align: center;
+}
+.timeintel {
+	width: 50%;
+	min-height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.inline {
+	display: inline;
+}
+.filebutton {
+	border-radius: 5px;
+	color: green;
+	border: none;
+	float: right;
+	background-color: rgba(0,0,0,0);
+	cursor: pointer;
+	margin: 7px;
+}
+.filesactions {
+	width: 50%;
+	min-height: 30px;
+	line-height: 30px;
+}
+.selectpage {
+	width: 500px;
+	position: absolute;
+	height: 22px;
+	line-height: 20px;
+	top: -30px;
+	border: 4px solid green;
+	border-radius: 10px 10px 0px 0px;
+	left: 0%;
+	right: 0%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.pageselectbutton {
+	margin: auto 40px auto 40px;
+	cursor: pointer;
+	display: inline;
+}
+.pageselectbutton:hover {
+	cursor: pointer;
+	text-shadow: 0 0 25px green;
+}
